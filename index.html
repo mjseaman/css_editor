@@ -19,29 +19,49 @@
 </head>
 <body>
 
-  <article>
-    <h2>My post</h2>
-    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-  </article>
-
-  <div id="comment_area">
-    <h4>Comments</h4>
-
-    <ul id="comment_list">
-      <li>
-        Nice post.  Don't know how to read that Roman mumbo-jumbo, but I like it.
-        <span class="author">Tom Jones</span>
-      </li>
-    </ul>
-    
-
-    <button id="new_comment_button">New Comment</button>
-    <form id="new_comment" hidden="true">
-      <textarea class="field comment_text" placeholder="Say it mothafucka" required></textarea>
-      <input class="field comment_author" type="text" placeholder="Your name">
-      <input type="submit">
+<div class="container">
+    <form id="style_editor" name="style_editor">
+      <input id="selector" name="selector" placeholder="css selector" />
+      <input id="property" name="property" placeholder="property" />
+      <input id="value" name="value" placeholder="value" />
+      <input type="submit" value="Style it!" />
     </form>
-  </div>
+
+    <header>
+      <h1>My Sweet Blog</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+        <br clear="all" />
+    </nav>
+    <div class="content">
+      <h2>My Blog Post Title</h2>
+      <section>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </section>
+      <section>
+        <h3>Some New Section</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </section>
+      <section>
+        <h3>An Awesome Conclusion</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </section>
+    </div>
+    <div class="footer">
+      Copyright &copy; 2013 Awesome People, Inc.
+    </div>
+</div>
+
 
 </body>
 </html>

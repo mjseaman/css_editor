@@ -1,62 +1,15 @@
-#comment_area {
-  padding: 10px 0;
-  border-top: 1px solid #ddd;
+.container {
+  margin: 0 auto;  
+  padding-top: 20px;
 }
 
-#comment_area h4 {
-  margin-top: 0;
-}
-
-#new_comment_button {
-  margin-top: 10px;
-}
-
-ul#comment_list {
-  list-style-type: none;
-  margin: 20px 0 0;
-  padding: 0;
-}
-
-ul#comment_list li {
-  display: block;
-  padding: 6px;
-  background-color: #ddd;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-  margin: 5px 0px;
-}
-
-ul#comment_list .author {
-  display: block;
-  font-size: 0.8em;
-  color: #444;
-  margin-top: 4px;
-  font-style: italic;
-}
-
-form#new_comment {
-  width: 360px;
-  background-color: #777;
-  padding: 6px;
-  border: 1px solid #666;
-  border-radius: 3px;
-}
-
-form#new_comment textarea {
+form#style_editor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5px 0px;
   width: 100%;
+  text-align: center;
+  background-color: rgba(200,200,200,0.8);
+  box-shadow: inset 0px -2px 2px #aaa;
 }
-
-form#new_comment input#authorName {
-  min-width: 50%;
-  max-width: 68%;
-}
-
-form#new_comment input[type="submit"] {
-  min-width: 30%;
-  float: right;
-}
-
-.hide {
-  display:none;
-}
-
